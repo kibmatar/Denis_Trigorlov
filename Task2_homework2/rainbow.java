@@ -1,15 +1,15 @@
 package eu.Senla.Task2_homework2;
 import java.util.*;
 
-public class rainbow {
+public class Rainbow {
 	
-//	final private int col1=1;
-//	final private int col2=2;
-//	final private int col3=3;
-//	final private int col4=4;
-//	final private int col5=5;
-//	final private int col6=6;
-//	final private int col7=7;
+//	final private int colRed1=1;
+//	final private int colOrange2=2;
+//	final private int colYellow3=3;
+//	final private int colGreen4=4;
+//	final private int colBlue5=5;
+//	final private int colDarkblue6=6;
+//	final private int colViolet7=7;
 	private  String color1;
 	private  String color2;
 	private  String color3;
@@ -19,9 +19,25 @@ public class rainbow {
 	private  String color7;
 	
 	
-//	final int[]ColorsArray= {1,2,3,4,5,6,7};
+//	final private String[]ColorsArray= {"red","orange","yellow","green","blue","darkblue","violet"};
+//	Rainbow againRainbow=new Rainbow(ColorsArray[colorsNumber]);
+//	
+//	void defineColor() {
+//		Scanner scan2=new Scanner(System.in);
+//		System.out.print("Insert color: ");
+//		int colorsNumber=scan2.nextInt();
+//		while(colorsNumber<10)
+//			if (colorsNumber<=(ColorsArray.length-1) && colorsNumber>0) {
+//				System.out.println(ColorsArray[colorsNumber]);
+//				colorsNumber=scan2.nextInt();
+//			}else {
+//				System.out.println("insert correct number");
+//				colorsNumber=scan2.nextInt();
+//			}
+//	}
 	
-	rainbow(String color1, String color2, String color3, 
+	
+	Rainbow(String color1, String color2, String color3, 
 			String color4, String color5, String color6,
 			String color7){
 		this.color1=color1;
@@ -32,6 +48,8 @@ public class rainbow {
 		this.color6=color6;
 		this.color7=color7;
 	}
+	
+//	Rainbow mainRainbow2= new Rainbow("Red", "Orange", "Yellow", "Green", "Blue", "Dark blue", "Violet");
 	
 	public void setColor1(String color1) {
 		this.color1=color1;
@@ -75,7 +93,6 @@ public class rainbow {
 	public String getColor7() {
 		return color7;
 	}
-	
 	
 	
 }
