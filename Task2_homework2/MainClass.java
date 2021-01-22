@@ -3,7 +3,7 @@ import java.util.*;
 
 public class MainClass {
 	public static void main(String[] args) {
-	
+		// in my rainbow we can change colors like a god. Unfortunatly, didnt use constants. its a mistake
 		Rainbow mainRainbow= new Rainbow("Red", "Orange", "Yellow", "Green", "Blue", "Dark blue", "Violet");
 	
 		Scanner scan=new Scanner(System.in);
