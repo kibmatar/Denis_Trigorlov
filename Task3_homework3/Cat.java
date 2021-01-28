@@ -15,10 +15,9 @@ public class Cat {
 	static void cycle1() {
 		Cat []cats1array=new Cat[10];
 		while(Counter++<9) {
-			System.out.println(new Cat(CatsName,CatsAge).toString());
-//			cats1array[Counter]=new Cat(CatsName,CatsAge);
-////			cat1.CatsName=" default Barsik ";
-//			System.out.println("Kitty "+Counter+" "+CatsName+" age "+CatsAge);
+			cats1array[Counter]=new Cat(CatsName,CatsAge);
+//			cat1.CatsName=" default Barsik ";
+			System.out.println("Kitty "+Counter+" "+CatsName+" age "+CatsAge);
 		}
 		Counter=0;
 	}
